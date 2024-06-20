@@ -115,6 +115,7 @@ function drawButton(x, y, w, h, label, baseColor) {
   noStroke();
   rect(x, y, w, h);
   fill(255);
+  textStyle(NORMAL);
   textSize(20);
   textAlign(CENTER, CENTER);
   text(label, x + w / 2, y + h / 2);
