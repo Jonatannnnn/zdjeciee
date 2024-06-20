@@ -126,6 +126,6 @@ function isMouseOver(x, y, w, h) {
 
 function mousePressed() {
   if (isMouseOver(button2X, buttonY, buttonWidth, buttonHeight)) {
-    window.open('https://www.wp.pl', '_self');
+    window.open('https://buzizuzi.github.io/podpiss/', '_self');
   }
 }
